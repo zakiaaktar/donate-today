@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-banner-image {
+    background-image: url(image/donation1.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#top-banner-title {
+    color: white;
+    font-size: 700;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#top-banner-sub-title {
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.donate-now-link {
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 15px;
+}
+
+.donate-now {
+    padding-top: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.donate-today-container {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.donate-today-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.donate-today-sub-title {
+    text-align: center;
+    margin-top: 27px;
+}
+
+.donate-today-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+
+}
+
+.donate-today-sub-div {
+    width: 15%;
+    background-color: #f5f6fa;
+    font-size: 20px;
+    padding: 35px 0px;
+    text-align: center;
+
+}
+
+.second-div {
+    width: 15%;
+    color: #ff7675;
+    background-color: #ffb8b858;
+    padding: 30px 0px;
+    border: 2px solid #ff7675;
+}
+
+.other-amount-div {
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+.other-amount-taka {
+    color: #b2bec3;
+    font-size: 16px;
+}
+
+.other-amount {
+    margin-top: 5px;
+    width: 100%;
+    color: #b2bec3;
+}
+
+.our-donate-plan-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.our-donate-plan-div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.our-donate-plan-sub-div1 {
+    width: 27%;
+    background-color: #dff9fb;
+    padding: 32px 20px;
+}
+
+.our-donate-plan-sub-div2 {
+    width: 27%;
+    background-color: #ffb8b858;
+    padding: 32px 20px;
+}
+
+.our-donate-plan-sub-div3 {
+    width: 27%;
+    background-color: rgba(247, 247, 135, 0.502);
+    padding: 32px 20px;
+}
+
+.sub-div-heading {
+    margin-top: 15px;
+}
+
+.sub-div-paragraph {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #a1a5a6;
+}
